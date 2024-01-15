@@ -1,0 +1,85 @@
+/* * {
+    border: 2px solid red;
+} */
+
+body {
+    background: linear-gradient(90deg, blue, rgb(214, 78, 101));
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+.block label {
+    display: block;
+    margin: 10px auto;
+}
+
+.select select {
+    margin: 10px auto;
+}
+
+.radio,
+.checkbox {
+    margin: 10px auto;
+}
+
+p {
+    margin: 8px auto;
+}
+
+.select p{
+    margin-bottom: 0;
+}
+
+.main {
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    border: 4px solid orange;
+
+}
+
+.topic {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 20px;
+}
+
+input[type = 'text'],
+input[type = 'email'],
+input[type = 'number'] {
+    width: 60%;
+}
+
+button {
+    width: 70%;
+    margin-top: 12px;
+    color: white;
+    background-color: rgb(60, 240, 60);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 70%;
+}
+
+
+@media (max-width: 480px) {
+    .topic {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+     }
+}
+

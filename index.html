@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technophile Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topic">
+        <h1 id="title">Technophile Services</h1>
+        <p id="description">A survey of quality of services offered by Technophile Solutions</p>
+    </div>
+
+    <div class="main">
+        <form action="#" method="get" id="survey-form">
+            <div class="block">
+                <label for="name" id="name-label">Enter Your Name:</label>
+                <input type="text" id="name" placeholder="actualNames">
+            </div>
+
+            <div class="block">
+                <label for="email" id="email-label">Enter Your Email Address:</label>
+                <input type="email" id="email" placeholder="emailAddress">
+            </div>
+
+            <div class="block">
+                <label for="number" id="number-label">Enter Your Phone Number:</label>
+                <input type="number" id="number" min="0700000000" max="0799999999" placeholder="phoneNumber">
+            </div>
+
+            <div class="select">
+                <p>How is the Quality of Customer Service?</p>
+                <select name="Customer Service" id="dropdown">
+                    <option hidden disabled selected value>Select an option</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Bad">Bad</option>
+                </select>
+            </div>
+
+            <div class="radio">
+                <p>Would you recommend Technophile Solutions to your friends?</p>
+                <input type="radio" name="promotion" id="yes" value="Yes">
+                <label for="yes">Yes</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="promotion" id="no" value="No">
+                <label for="no">No</label>
+            </div>
+
+
+            <div class="radio">
+                <input type="radio" name="promotion" id="maybe" value="Maybe">
+                <label for="maybe">Maybe</label>
+            </div>
+
+            <div class="radio">
+                <p>What are some of the services you have employed from us?</p>
+                <input type="checkbox" id="gaming" value="Gaming">
+                <label for="gaming">Gaming</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="cleaning" value="Cleaning">
+                <label for="cleaning">Cleaning</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="updates" value="Updates">
+                <label for="updates">Updates</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="windowsinst" value="Windows Installation">
+                <label for="windowsinst">Windows Installation</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="repair" value="Repair">
+                <label for="repair">Repair</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="softwareinst" value="Software Installation">
+                <label for="softwareinst">Software Installation</label>
+            </div>
+
+            <div>
+                <textarea name="Comments" id="comments" cols="30" rows="5" placeholder="Additional Comments"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
